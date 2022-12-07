@@ -3,8 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    max-height: 250vh;
+    max-height: 2500vh;
 }
+
+/* Start card holder */
 .submetButton {
     position: absolute;
     text-align: center;
@@ -19,12 +21,13 @@
     cursor: pointer;
 }
 .containerRooms {
-    width: 400px;
-    height: 500px;
+    width: 800px;
+    height: 700px;
+    
     background-color: rgb(111 191 145);
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 60%;
     transform: translate(-50% , -50%);    
     border-radius: 15px;
     border: 2px solid white;
@@ -32,21 +35,36 @@
     visibility: hidden;
     display: none;
 }
-.roomText {
-    text-align: center;
-    padding: 30px;
-    border-radius: 15px;
-}
 .roomText h2 {
     font-size: 20px;
     padding-bottom: 30px;
     color: white;
     border-bottom: 2px solid white;
+    text-align: center;
+    padding: 30px;
+}
+.StudentNames,
+.StudentID {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(111 191 145);
+    grid-gap: 30px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 6px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    color: white;
+    border-bottom: solid white;
 }
 .roomText input {
+
     background-color: rgb(111 191 145);
     border-radius: 3px;
     margin-top: 20px;
+    margin-left: 20px;
     padding: 6px;
     border-top: hidden;
     border-left: hidden;
@@ -57,7 +75,7 @@
 ::placeholder {
     color: white;
 }
-/* start card holder */
+/* End card holder */
 
 /* start header */
 header {
@@ -91,7 +109,8 @@ li a:hover {
 /* start floor section */
 .floor-one {
     position: absolute;
-    left: 230px;
+    left: 50%;
+    transform: translateX(-50%);
     top: 150px;
     width: 200px;
     height: 50px;
@@ -123,7 +142,7 @@ li a:hover {
 }
 .vertical {
     border-left: 2px solid rgb(111 191 145);
-    height: 250vh;
+    height: 400vh;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -138,9 +157,9 @@ li a:hover {
 /* start rooms left floor */
 .container {
     display: grid;
-    grid-template-columns: repeat(2 , 1fr);
+    grid-template-columns: repeat(4 , 1fr);
     max-width: 400px;
-    margin: 130px 60px;
+    margin: 130px 30px;
     grid-gap: 40px;
     margin-top: 200px;
 }
@@ -150,13 +169,13 @@ li a:hover {
     grid-gap: 40px;
     max-width: 400px;
     position: relative;
-    left: 840px;
-    bottom: 1768px;
+    left: 770px;
+    bottom: 2808px;
 
 }
 .room {
-    width: 250px;
-    height: 170px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(111 191 145);
     box-shadow: 0 10px 40px rgb(8 7 16 / 30%);
     border-radius: 10px;
@@ -181,4 +200,41 @@ li a:hover {
     left: 145px;
 }
 /* end rooms left floor */
+
+/* start room details from outside */
+.room .names {
+    width: 75%;
+    height: 100%;
+    padding: 30px 20px;
+}
+.room .names p {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: white;
+}
+.room .ID {
+    position: relative;
+    left: 75%;
+    top: -100%;
+    padding: 30px 20px;
+}
+.room .ID p {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: white;
+}
+.room .roomNumber {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.room .roomNumber p {
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+/* end room details from outside */
+
 

@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B</title>
-    <link rel="stylesheet" href="../style/B.css">
-            <!--  Render All Elements normally -->
-            <link rel="stylesheet" href="../style/normalize.css">
-            <!-- font awesome library -->
-            <link rel="stylesheet" href="../style/all.min.css">
+    <title>A</title>
+    <link rel="stylesheet" href="../style/Rooms.css">
+        <!--  Render All Elements normally -->
+        <link rel="stylesheet" href="../style/normalize.css">
+        <!-- font awesome library -->
+        <link rel="stylesheet" href="../style/all.min.css">
 </head>
 <body>
-
-    <!--start Card Holder-->
+<!--start Card Holder-->
 <div class="containerRooms" id="containerRooms">
     <p class="exit" id="exit"><i class="fa-regular fa-circle-xmark "></i></p>
     <div class="roomText">
         <h2 id="myh2">Room 1</h2>
-        <input type="text" placeholder="Name" class="studentName" id="myNameOne">
-        <input type="text" placeholder="Name" class="studentName" id="myNameTwo"> 
-        <input type="text" placeholder="Name" class="studentName" id="myNameThree"> 
-        <input type="text" placeholder="Name" class="studentName" id="myNameFour"> 
-        <input type="text" placeholder="Name" class="studentName" id="myNameFive">
-        <input type="text" placeholder="Name" class="studentName" id="myNameSix">
+            <div class="StudentNames">
+                <input type="text" placeholder="Name" class="studentName" id="myNameOne">
+                <input type="text" placeholder="Name" class="studentName" id="myNameTwo"> 
+                <input type="text" placeholder="Name" class="studentName" id="myNameThree"> 
+                <input type="text" placeholder="Name" class="studentName" id="myNameFour"> 
+                <input type="text" placeholder="Name" class="studentName" id="myNameFive">
+                <input type="text" placeholder="Name" class="studentName" id="myNameSix">
+            </div>
+            <div class="StudentID">
+                <input type="password" placeholder="ID" class="studentID" id="myIDone">
+                <input type="password" placeholder="ID" class="studentID" id="myIDtwo">
+                <input type="password" placeholder="ID" class="studentID" id="myIDthree">
+                <input type="password" placeholder="ID" class="studentID" id="myIDfour">
+                <input type="password" placeholder="ID" class="studentID" id="myIDfive">
+                <input type="password" placeholder="ID" class="studentID" id="myIDsix">
+            </div>
         <button class="submetButton" id="myButton">Submit</button> 
     </div>    
 </div>
-<!--end Card Holder-->
+<!--end Card Holder-->    
 
 <!-- start header -->
 <div class="fullContainer" id="Fullcontainer">
@@ -44,7 +53,25 @@
 <!--start rooms section left-->
 <div class="container">
     <div class="room" id="one">
-        
+        <div class="roomNumber">
+            <p>Room 1</p>
+        </div>
+        <div class="names">
+            <p>Ahmed Ali</p>
+            <p>Mohamed Sami</p>
+            <p>Samir Abdo</p>
+            <p>Ali Eid</p>
+            <p>Abdo Ahmed</p>
+            <p>Mahmoud Shahin</p>
+        </div>
+        <div class="ID">
+            <p>33</p>
+            <p>54</p>
+            <p>32</p>
+            <p>77</p>
+            <p>56</p>
+            <p>23</p>
+        </div>
     </div>
     <div class="room" id="two">
         
@@ -100,14 +127,14 @@
     <div class="floor-one">
         <h2>Floor one</h2>
     </div>
-    <div class="floor-two">
+    <!-- <div class="floor-two">
         <h2>Floor two</h2>
     </div>
-    <div class="vertical"></div>
+    <div class="vertical"></div> -->
 <!--end floor section-->
 
 <!--start rooms section right-->
-<div class="container-2">
+<!-- <div class="container-2">
     <div class="room">
         
     </div>
@@ -153,12 +180,9 @@
     <div class="room" id="room-30">
         
     </div>
-</div>
+</div> -->
 <!--end rooms section right-->
-
-
 </div>
-
-    <script src="../js/main.js"></script>
+<script src="../js/main.js"></script>
 </body>
 </html>
