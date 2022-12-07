@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #DEF5E5;
+    font-family: "Montserrat" , sans-serif;
+}
+/* start header */
+li , a , button 
+{
+    font-family: "Montserrat" , sans-serif;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    color: #edf0f1;
+}
+
+.HeadName {
+    cursor: pointer;
+    color: #486b54a3;
+}
+
+.navLinks {
+    list-style: none;
+}
+
+.navLinks li {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.navLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    color: #0088a9;
+}
+button {
+    padding: 9px 25px;
+    background-color: #8EC3B0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition : all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(13, 99, 45, 0.8);
+}
+/* end header */
+
+/* start landing section */
+.landing {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    max-width: 100%;
+    font-size: 22px;
+    color: #486b54a3;
+}
+.landing h1 {
+    padding: 20px;
+    letter-spacing: 2px;
+}
+/* end landing section */
+
+/* start featuers section */
+.features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 100%;
+}
+.feat {
+    max-width: 100%;
+}
+.features .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+    grid-gap: 20px;
+    padding-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #486b54a3;
+}
+.features .container .feat {
+    text-align: center;
+    padding: 0 30px;
+}
+.features .container .feat i {
+    color: white;
+    height: 40px;
+    font-size: 30px;
+}
+.feat h3 {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    color: rgba(14, 101, 49 , 0.7);
+}
+.feat p {
+    letter-spacing: 2px;
+}
+/* end featuers section */
+

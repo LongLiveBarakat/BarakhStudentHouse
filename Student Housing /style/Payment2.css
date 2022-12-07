@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat" , sans-serif;
+}
+/* start header */
+.HeadName {
+    cursor: pointer;
+    color: #486b54a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: "Montserrat" , sans-serif;
+    border-bottom: 2px solid rgb(111 191 145);
+}
+/* End header */
+
+/* Start Form */
+form {
+    height: 520px;
+    width: 400px;
+    background-color: rgb(167,210,192);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgb(8 7 16 / 30%);
+    padding: 50px 35px;
+}
+form * {
+    font-family: 'Poppins' , sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.card-details p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+.card-number {
+    display: block;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.card-number-field {
+    display: block;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+.date-number-field {
+    display: block;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+.cvv-number-field {
+    display: block;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+.card-name-field {
+    display: block;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 0 20px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    color: black;
+}
+.submit-now-btn {
+    margin-top: 25px;
+    width: 100%;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(111 191 145);
+    transition: all 0.3s ease 0s;
+}
+.section {
+    position: absolute;
+    width: 400px;
+    height: 100vh;
+    text-align: center;
+    top: 150px;
+}
+.section img {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(111 191 145);
+}
+.section h3 {
+    margin:20px 0;
+    color: #486b54a3;
+    font-weight: 600;
+}
+.section h5 {
+    text-align: start;
+    margin-left: 75px;
+    color: rgb(41, 54, 49);
+}
+.txt {
+    margin-bottom: 70px;
+    margin-top: 50px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+}
+/* End Form */

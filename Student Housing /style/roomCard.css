@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.containerRooms {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(111 191 145);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);    
+    border-radius: 15px;
+    border: 2px solid white;
+    box-shadow: 0 10px 40px rgb(8 7 16 / 30%);
+}
+.roomText {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+}
+.roomText h2 {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.roomText input {
+    background-color: rgb(111 191 145);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 6px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    color: white;
+    border-bottom: solid white;
+}
+::placeholder {
+    color: white;
+}
