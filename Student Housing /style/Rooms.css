@@ -80,7 +80,7 @@
 /* start header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border-bottom: 2px solid rgb(111 191 145);
     height: 70px;
     width: 100%;
@@ -88,22 +88,12 @@ header {
     padding: 0 100px;
     color: #486b54a3;
 }
+.HeadName {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
 
-.navlinks li {
-    display: inline-block;
-    margin: 0 50px;
-    color: rgb(111 191 145);
-    font-size: 20px;
-    font-weight: 600;
-}
-li a {
-    text-decoration: none;
-    color: #486b54a3;
-    transition: all 0.3s ease 0s;
-}
-li a:hover {
-    color: #0088a9;
-}
+
 /* End header */
 
 /* start floor section */
@@ -124,22 +114,7 @@ li a:hover {
     border: 2px solid white;
     box-shadow: 0 10px 40px rgb(8 7 16 / 30%);
 }
-.floor-two {
-    position: absolute;
-    right: 230px;
-    top: 150px;
-    width: 200px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: rgb(111 191 145);
-    border-radius: 10px;
-    font-size: 14px;
-    border: 2px solid white;
-    box-shadow: 0 10px 40px rgb(8 7 16 / 30%);
-}
+
 .vertical {
     border-left: 2px solid rgb(111 191 145);
     height: 400vh;
@@ -158,10 +133,16 @@ li a:hover {
 .container {
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    max-width: 400px;
     margin: 130px 30px;
     grid-gap: 40px;
     margin-top: 200px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgb(111 191 145);
+}
+#twentynine ,
+#thirty {
+    position: relative;
+    left: 113%;
 }
 .container-2 {
     display: grid;
@@ -191,14 +172,7 @@ li a:hover {
     color: rgb(111 191 145);
     cursor: pointer;
 }
-#fifteen {
-    position: relative;
-    left: 145px;
-}
-#room-30 {
-    position: relative;
-    left: 145px;
-}
+
 /* end rooms left floor */
 
 /* start room details from outside */
