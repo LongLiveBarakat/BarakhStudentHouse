@@ -25,6 +25,9 @@ nav {
     overflow: hidden;
     box-shadow: 0 20px 35px rgba(0 , 0 , 0 , 0.1 );
 }
+nav ul li {
+    padding: 30px 0;
+}
 .logo {
     text-align: center;
     display: flex;
@@ -75,13 +78,50 @@ a:hover {
 /* end nav section */
 
 /* start header section */
-.container {
-    position: relative;
-    width: 100%;
+.header {
+    position: absolute;
+    top: 0;
+    left: 280px;
+    width: calc(100% - 280px);
     display: flex;
-    height: 100px;
+    height: 105px;
     background-color: white;
 }
-
+.header .HeadName {
+    padding: 40px;
+}
+.header p {
+    color: rgb(85, 83, 83);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
 /* end header section */
+
+/* start info section */
+.information {
+    position: absolute;
+    left: 280px;
+    top: 105px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.information img {
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 130px;
+    margin-bottom: 100px;
+    left: 40%;
+    transform: translateX(-60%);
+    position: relative;
+}
+.information p {
+    margin-bottom: 100px;
+    color: rgb(85, 83, 83);
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+/* end info section */
+
 
