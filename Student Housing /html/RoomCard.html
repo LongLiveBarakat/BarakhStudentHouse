@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../style/RoomCard.css">
 </head>
 <body>
+<!--start room card-->
     <div class="container">
+        <h2 class="title">Room One</h2>
         <form action="" class="RoomForm">
             <div class="upper_section">
                 <div class="info">
@@ -16,6 +18,10 @@
                     <label for="text" class="Cap"></label>
                     <label for="text">Current</label>
                     <label for="text" class="Cur"></label>
+                    <!--<label for="text">Room State</label>
+                    <label for="text" class="Cap"></label>
+                    <label for="text">Is Full</label>
+                    <label for="text" class="Cap"></label>-->
                 </div>
                 <div class="Students">
                     <form action="">
@@ -26,22 +32,28 @@
             </div>
             <div class="horizontal_line"></div>
             <div class="lower_section">
-                <div class="add_button">
-                    <form action="">Add</form>
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                </div>
-                <div class="ubdate_button">
-                    <form action="">Update</form>
-                    <input type="text" name="" id="">
-                    <input type="text" name="" id="">
-                </div>
-                <div class="delete_button">
-                    <form action="">Delete</form>
-                    <input type="text" name="" id="">
-                </div>
+                <form action="" class="add_form">
+                    <label for="text">Add</label>
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Id" required>
+                    <button class="add_button">Add</button>
+                </form>
+                <form action="" class="update_form">
+                    <label for="text">Update</label>
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Id" required>
+                    <button class="add_button">Update</button>
+                </form>
+                <form action="" class="delete_form">
+                    <label for="text">Delete</label>
+                    <input type="text" placeholder="Name" required>
+                    <input type="text" placeholder="Id" required>
+                    <button class="add_button">Delete</button>
+                </form>
             </div>
         </form>
     </div>
+<!--end room card-->
+
 </body>
 </html>
