@@ -1,43 +1,98 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-.containerRooms {
-    width: 400px;
-    height: 450px;
+.container {
     background-color: rgb(111 191 145);
     position: absolute;
-    left: 50%;
+    width: 600px;
+    height: 600px;
     top: 50%;
-    transform: translate(-50% , -50%);    
+    left: 50%;
+    transform: translate(-50% , -50%);
     border-radius: 15px;
-    border: 2px solid white;
-    box-shadow: 0 10px 40px rgb(8 7 16 / 30%);
+    box-shadow: 0 0 40px rgb(8 7 16 / 30%);
 }
-.roomText {
-    text-align: center;
-    padding: 30px;
-    border-radius: 15px;
+.container .RoomForm .upper_section .info {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 50px 45px;
 }
-.roomText h2 {
+.container .RoomForm .upper_section .info label {
     font-size: 20px;
-    padding-bottom: 30px;
+    padding: 0 24px;
+    text-transform: uppercase;
     color: white;
+    letter-spacing: 2px;
+}
+.container .RoomForm .upper_section .info .Cap,
+.Cur
+{
     border-bottom: 2px solid white;
+    margin: 20px;
 }
-.roomText input {
+.container .RoomForm .upper_section .Students {
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding: 0 75px;
+}
+.container .RoomForm .upper_section .Students label {
+    border-bottom: 2px solid white;
+    margin: 20px;
+}
+.horizontal_line {
+    border-bottom: 2px solid white;
+    position: relative;
+    padding-top: 40px;
+}
+.lower_section {
+    padding: 50px;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.lower_section .add_button,.ubdate_button,.delete_button {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    padding: 20px;
+}
+.lower_section .add_button input {
+    width: 50px;
+    height: 30px;
+    padding: 0 15px;
+    border: none;
     background-color: rgb(111 191 145);
-    border-radius: 3px;
-    margin-top: 20px;
-    padding: 6px;
-    border-top: hidden;
-    border-left: hidden;
-    border-right: hidden;
-    color: white;
-    border-bottom: solid white;
+    border-bottom: 1px solid white;
+    align-items: center;
+    justify-content: center;
 }
-::placeholder {
+.lower_section .ubdate_button input {
+    width: 50px;
+    height: 30px;
+    padding: 0 15px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    background-color: rgb(111 191 145);
+    border-bottom: 1px solid white;
+
+}
+.lower_section .delete_button input {
+    width: 50px;
+    height: 30px;
+    padding: 0 15px;
+    border: none;
+    background-color: rgb(111 191 145);
+    border-bottom: 1px solid white;
+    align-items: center;
+    justify-content: center;
+}
+.lower_section .add_button , .delete_button , .ubdate_button form {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    justify-content: center;
+    align-items: center;
     color: white;
 }
