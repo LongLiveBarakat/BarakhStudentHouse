@@ -6,15 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student View</title>
     <link rel="stylesheet" href="../style/StudentView.css">
+    <!--  Render All Elements normally -->
+    <link rel="stylesheet" href="../style/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="../style/all.min.css">
 </head>
 <body>
     <!-- start header section -->
     <div class="header">
         <div class="logo">Sakha Student Housing</div>
-        <div class="home-icon">
-            <i class="fa-solid fa-house-user"></i>
-        </div>
+        <a href="About.html"><i class="fa-solid fa-house-user"></i></a> 
     </div>
     <!-- end header section -->
+
+    <!-- start main section -->
+    <div class="container">
+        <form action="" class="info_form">
+        <label for="text">National Id</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Full Name</label>
+        <input type="text" placeholder="" required>
+        <div class="gender">
+        <label  for="text">Gender</label>
+        <input  type="radio" name="Gender" value="male" required>Male
+        <input  type="radio" name="Gender" value="female" required>Female
+        </div>
+        <label class="3ashan_el_grid_yozbot" for=""></label>
+        <label for="text">Phone Number</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Address</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Religion</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Email</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Password</label>
+        <input type="text" placeholder="" required>
+        <label for="text">With Feeding</label>
+        <input type="text" placeholder="" required>
+        <label for="text">With Descount</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Is Old</label>
+        <input type="text" placdeholder="" required>
+        <label for="text">College Name</label>
+        <input type="text" placeholder="" required>
+        <label for="text">Gardian National Id</label>
+        <input type="text" placeholder="" required>
+        <button>Sibmit</button>
+        </form>
+    </div>
+    <!-- end main section -->
 </body>
 </html>

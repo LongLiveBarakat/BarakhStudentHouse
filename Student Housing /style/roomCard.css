@@ -10,7 +10,7 @@
     background-color: rgb(111 191 145);
     position: absolute;
     width: 800px;
-    height: 700px;
+    height: 750px;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -28,8 +28,8 @@
 }
 .container .RoomForm .upper_section .info {
     position: relative;
-    width: 100%;
-    padding: 50px 145px;
+    width: 200%;
+    padding: 50px 95px;
 }
 
 .container .RoomForm .upper_section .info label {
@@ -53,6 +53,8 @@
 .container .RoomForm .upper_section .Students label {
     border-bottom: 2px solid white;
     margin: 20px;
+    color: white;
+    padding: 0 15px;
 }
 .horizontal_line {
     border-bottom: 2px solid white;
@@ -62,7 +64,7 @@
 /* start lower section */
 .lower_section {
     position: relative;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-left: 50px;
     width: 80%;
     left: 20px;
@@ -73,6 +75,7 @@
     grid-gap: 20px;
     padding-top: 25px;
 }
+
 .lower_section form input {
     border: none;
     border-radius: 5px;
