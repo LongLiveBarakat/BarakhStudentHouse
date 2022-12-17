@@ -41,6 +41,53 @@ body {
 .container .gender {
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
+    display: flex;
+    justify-content: space-between;
+}
+.container .gender .gender_things {
+    position: relative;
+    left: 540px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.container .gender .gender_things input {
+    width: 50px;
+    border: none;
+}
+.container .gender .gender_things p {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.container .Is_Older {
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    display: flex;
+    justify-content: space-between;
+}
+.container .Is_Older .isOlder_things {
+    position: relative;
+    left: 540px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.container .Is_Older .isOlder_things input {
+    width: 50px;
+    border: none;
+}
+.container .Is_Older .isOlder_things p {
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.container .Is_Older label {
+    width: 200px;
 }
 .container button {
     width: 100px;
@@ -63,7 +110,7 @@ button:hover {
 }
 .container label {
     color: white;
-    font-size: 20px;
+    font-size: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 600;
