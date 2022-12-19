@@ -6,6 +6,9 @@
     margin: 0;
     font-family: "Montserrat" , sans-serif;
 }
+body {
+    background-color: #3d5a80;
+}
 /* start header */
 li , a , button 
 {
@@ -26,25 +29,24 @@ header {
 
 .HeadName {
     cursor: pointer;
-    color: #486b54a3;
+    color: #e0fbfc;
     align-items: center;
     width: 100%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 
 button {
     padding: 9px 25px;
-    background-color: rgb(111 191 145);
+    background-color: #ee6c4d;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition : all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(111 , 191 , 145 , 0.5);
-}
-body {
-    background-color: #DEF5E5;
+    background-color: #98c1d9;
 }
 /* end header */
 
@@ -52,7 +54,7 @@ body {
 form {
     height: 520px;
     width: 400px;
-    background-color: rgb(167,210,192);
+    background-color: #293241;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -108,10 +110,11 @@ form p {
 }
 form p a {
     text-decoration: none;
-    color: rgb(2, 76, 34);
+    color: #ee6c4d;
     transition:  0.3s ease 0s;
 }
 form p a:hover {
-    background-color: rgba(111 , 191 , 145 , 0.5);
+    font-size: 17px;
+    padding-left: 5px;
 }
 /* end login form */

@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color: #c5e5c9;
+    background-color: #3d5a80;
 }
 /* start header */
 .header {
@@ -17,7 +17,7 @@ body {
     background-color: white;
 }
 .header .logo {
-    color: gray;
+    color: #293241;
     font-weight: 600;
     font-size: 24px;
     text-transform: uppercase;
@@ -26,7 +26,7 @@ body {
 }
 .header a {
     font-size: 35px;
-    color: gray;
+    color: #293241;
 }
 /* end header */
 
@@ -90,10 +90,10 @@ body {
     width: 200px;
 }
 .container button {
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     position: relative;
-    left: 90%;
+    left: 140%;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 15px;
@@ -101,15 +101,15 @@ body {
     border: none;
     border-radius: 5px;
     background-color: white;
-    color: #57845d;
+    color: #293241;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(44, 186, 96, 0.8);
+    background-color: #ee6c4d;
 }
 .container label {
-    color: white;
+    color: #e0fbfc;
     font-size: 24px;
     letter-spacing: 2px;
     text-transform: uppercase;

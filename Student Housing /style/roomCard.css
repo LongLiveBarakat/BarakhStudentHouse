@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+body {
+    background-color: #3d5a80;
+}
 /* start room card */
 .container {
-    background-color: rgb(111 191 145);
+    background-color: #293241;
     position: absolute;
     width: 800px;
     height: 750px;
@@ -67,7 +69,7 @@
     padding-top: 10px;
     padding-left: 50px;
     width: 80%;
-    left: 20px;
+    left: 61px;
 }
 .lower_section form {
     display: grid;
@@ -91,12 +93,12 @@
 .lower_section form button {
     border: none;
     border-radius: 10px;
-    color: rgb(111 191 145);
+    color: #293241;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(13, 99, 45, 0.8);
+    background-color: #ee6c4d;
 }
 .lower_section .add_form label {
     text-align: center;

@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: #3d5a80;
+}
 /* start header */
 .HeadName {
-    padding: 35px 40%;
+    padding: 35px 45%;
     cursor: pointer;
-    color: #486b54a3;
+    color: #e0fbfc;
     font-family: sans-serif;
-    border-bottom: 2px solid rgb(111 191 145);
+    border-bottom: 2px solid #e0fbfc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     width: 100%;
+    text-align: center;
 }
 /* End header */
 /* start section */
@@ -27,7 +33,7 @@
     height: 240px;
 }
 .section {
-    background-color: rgb(167,210,192);
+    background-color: #293241;
     color: white;
     font-family: sans-serif;
     width: 500px;
@@ -40,6 +46,11 @@
     border-radius: 15px;
     box-shadow: 0 0 40px rgb(8 7 16 / 30%);
     padding: 0 10px;
+    transition:  0.3s ease 0s;
+}
+.section:hover {
+    width: 520px;
+    height: 260px;
 }
 .section i {
     color: white;
