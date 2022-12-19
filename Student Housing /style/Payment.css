@@ -5,11 +5,15 @@
     margin: 0;
     font-family: "Montserrat" , sans-serif;
 }
-
+body {
+    background-color: #3d5a80;
+}
 /* start header */
 .HeadName {
     cursor: pointer;
-    color: #486b54a3;
+    color: #edf0f1;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,14 +21,14 @@
     font-size: 1.5em;
     font-weight: bold;
     font-family: "Montserrat" , sans-serif;
-    border-bottom: 2px solid rgb(111 191 145);
+    border-bottom: 2px solid #ee6c4d;
 }
 /* End header */
 
 form {
     height: 520px;
     width: 400px;
-    background-color: rgb(167,210,192);
+    background-color: #293241;
     position: absolute;
     transform: translate(-50%,-50%);
     top: 50%;
@@ -68,6 +72,9 @@ input {
     font-weight: 600;
     border-radius: 5px;
     cursor: pointer;
-    background-color: rgb(111 191 145);
+    background-color: #ee6c4d;
     transition: all 0.3s ease 0s;
+}
+.conButt:hover {
+    background-color: #98c1d9;
 }
